@@ -21,8 +21,7 @@ public class test {
     @RequestMapping("/queryAll")
     public ModelAndView queryAll(){
         //README.md
-        //445787
-        //5454
+
         List<Person> list = ps.queryAll();
         ModelAndView view = new ModelAndView("/list");
         view.addObject("list",list);
