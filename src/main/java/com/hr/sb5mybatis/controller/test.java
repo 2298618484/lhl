@@ -20,7 +20,7 @@ public class test {
 
     @RequestMapping("/queryAll")
     public ModelAndView queryAll(){
-
+        //README.md
         List<Person> list = ps.queryAll();
         ModelAndView view = new ModelAndView("/list");
         view.addObject("list",list);
