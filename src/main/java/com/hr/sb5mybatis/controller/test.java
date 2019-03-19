@@ -22,7 +22,7 @@ public class test {
     public ModelAndView queryAll(){
         //README.md
         //README.md
-
+        //000000
         List<Person> list = ps.queryAll();
         ModelAndView view = new ModelAndView("/list");
         view.addObject("list",list);
